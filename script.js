@@ -3,8 +3,8 @@
 // pesquisar o que é uma split
 var dados // pega os dados do usuário
 var incremento // recebe número que ajuda a codificar 
-    function codificar (){ // vai codificar os dados que usuário passar
-        var arr= dados.split("") // var se referindo a array
+    function codificar (){ // vai codificar os dados que usuário 
+        var arr= dados.split("") // var se referindo a 
         // entrando na array com os dados que o usuário forneceu, o split divide uma array
         var arr2=  [] // essa array está vazia porque ainda está esperando para ser usada
         var arr3= []
