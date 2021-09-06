@@ -6,34 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="style.css">
     <script defer src="script.js"></script>
-    <title>ProjetoPassinhodoRomano</title>
+    <title>ProjetoCifraebase64</title>
 </head>
 <body>
     <main>
         <h1>Selecione o método que preferir:</h1>
         <select id="escolherMetodo">
             <option value="0">Selecione</option>
-            <option value = "1">
+            <option value = "1" id="cifra">
             Cifra de cesar</option>
-            <option value = "2">
+            <option value = "2" id="base">
             Base64</option>
           </select>
         <h2>Você quer codificar ou descodificar?</h2>
         <div id="codificaroudescodificar">
             <input  type = "radio" id = "codi" name = "metodo" value = "true">
-            <label  for = "numero1">Codificar</label>
-            <input  type = "radio" id = "met2" name = "metodo" value = "true">
-            <label  for = "numero2">Descodificar</label>
+            <label  for = "codi">Codificar</label>
+            <input  type = "radio" id = "descodi" name = "metodo" value = "true">
+            <label  for = "descodi">Descodificar</label>
           </div>
-
           <div id="insiratexto1">
             <p>Insira seu texto!</p>
             <input type="text" name="texto1" id="texto1">
           </div>
+          <div id="cifra">
+              <p>Selecione a chave de codificação</p>
+              <input type="number" id="incremento" min="1" max="30"> 
+          </div>
+          
+          <button id="enviar">Enviar</button>
+          <p id="resultado"></p>
     </main>
     
-
-
     <footer>
         <p>Site para fins educacionais</p>
         <p>Aiala Priscila 2021©</p>

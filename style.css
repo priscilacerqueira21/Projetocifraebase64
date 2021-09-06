@@ -32,6 +32,8 @@ footer{
     justify-self: flex-end;
     color: rgb(255, 255, 255);
     width: 80%;
-    margin: 20px;
+    margin: 0 auto;
     padding: 5px;
+    position: fixed;
+    bottom: 0;
 }
