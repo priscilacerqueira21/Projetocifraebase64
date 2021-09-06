@@ -10,9 +10,26 @@
 </head>
 <body>
     <main>
-        <h1>Digite o que você deseja codificar ou descodificar!</h1>
-        <h2>Selecione o método que preferir:</h2>
-        <p>Você quer codificar ou descodificar?</p>
+        <h1>Selecione o método que preferir:</h1>
+        <select id="escolherMetodo">
+            <option value="0">Selecione</option>
+            <option value = "1">
+            Cifra de cesar</option>
+            <option value = "2">
+            Base64</option>
+          </select>
+        <h2>Você quer codificar ou descodificar?</h2>
+        <div id="codificaroudescodificar">
+            <input  type = "radio" id = "codi" name = "metodo" value = "true">
+            <label  for = "numero1">Codificar</label>
+            <input  type = "radio" id = "met2" name = "metodo" value = "true">
+            <label  for = "numero2">Descodificar</label>
+          </div>
+
+          <div id="insiratexto1">
+            <p>Insira seu texto!</p>
+            <input type="text" name="texto1" id="texto1">
+          </div>
     </main>
     
 
