@@ -1,3 +1,38 @@
+var texto1= document.getElementById('texto1')
+var incremento= document.getElementById('incremento')
+var botao= document.getElementById('botao')
+var escolhermetodo= document.getElementById('escolhermetodo')
+var resultado= document.getElementById('resultado')
+var codificar= document.getElementById('codificar')
+var descodificar = document.getElementById('descodificar')
+var resultadofinal= ''
+
+codificar.addEventListener('click',function (){
+botao.textContent= 'Codificar mensagem!'
+
+
+})
+
+descodificar.addEventListener('click', function (){
+    botao.texContent= 'Descodificar mensagem!'
+})
+
+
+
+document.getElementById('botao').onclick= function(){
+
+
+
+
+
+
+
+}
+
+
+
+
+
 //Coletar dados
 //transformar letras em números
 // pesquisar o que é uma split
@@ -22,6 +57,7 @@ var incremento // recebe número que ajuda a codificar
         }
         return arr3.join("")// se usa uma string vazia () para não separar por virgula o espaço
     }
+
 function descodificar (){
     var arr= dados.split("") // var se referindo a array
         // entrando na array com os dados que o usuário forneceu, o split divide uma array
@@ -41,6 +77,13 @@ function descodificar (){
         }
         return arr3.join("")// se usa uma string vazia () para não separar por virgula o espaço
 }
+
+
+
+
+
+
+
 
 function base64 () {
     var code = btoa (dados)
