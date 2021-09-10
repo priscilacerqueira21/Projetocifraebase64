@@ -27,7 +27,7 @@ footer{
     flex-direction: row;
     background-color: rgba(240, 167, 218, 0.6);
     border: rgb(153, 161, 236) solid 2px;
-    border-radius: 8px;
+    border-radius: 7px;
     justify-content: space-between;
     justify-self: flex-end;
     color: rgb(255, 255, 255);
